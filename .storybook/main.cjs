@@ -7,23 +7,24 @@ module.exports = {
   "addons": [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
-    "@storybook/addon-interactions"
+    "@storybook/addon-interactions",
+    '@storybook/addon-a11y',
   ],
 
   "framework": "@storybook/react",
   "core": {
-    "builder": "@storybook/builder-vite"
+    "builder": "@storybook/builder-vite",
   },
 
   "features": {
     "storyStoreV7": true
   },
 
-  viteFinal: (config, {ConfigType}) => {
-    if(ConfigType === 'PRODUCTION') {
-      config.base = '/ignite-lab-design-system/'
+  viteFinal: (config, { configType }) => {
+    if(configType === "PRODUCTION") {
+      config.base = "/ignite-lab-design-system/";
     }
 
-    return config
+    return config;
   }
 }
