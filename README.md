@@ -1,7 +1,7 @@
 # Design System
 >Ignite Lab - React
 
-![preview](.github\workflows\Preview.png)
+![preview](.github/workflows/Preview.png)
 
 Projeto construido do evento Ignite Lab da Rocketseat.
 
