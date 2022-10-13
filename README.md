@@ -17,6 +17,7 @@ Projeto construido do evento Ignite Lab da Rocketseat.
 - React
 - Type Script
 - Storybook
+- Tailwind
 - Figma
 - GIT E GITHUB
 
